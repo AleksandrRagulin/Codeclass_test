@@ -1,0 +1,4 @@
+*          READ TABLE ltd_measure_name ASSIGNING FIELD-SYMBOL(<ls_measure_name>) WITH KEY kmein = <ls_item>-vrkme.
+*          IF sy-subrc = 0.
+*            <ls_item>-measure_name = <ls_measure_name>-mseht.
+*          ENDIF.
